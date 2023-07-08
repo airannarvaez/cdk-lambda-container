@@ -18,3 +18,6 @@ This is a practical example of how to deploy Lambdas with containers using AWS C
 ```
     npm install -g aws-cdk
 ```
+
+If you want to see the explanation and how this code was developed, you can go to this post:
+[Unlocking Flexibility: Building Lambdas with Containers using AWS CDK](https://medium.com/@narvaezairan/unlocking-flexibility-building-lambdas-with-containers-using-aws-cdk-f912b169a470).
