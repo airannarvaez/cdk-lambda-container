@@ -1,14 +1,20 @@
-# Welcome to your CDK TypeScript project
+# Developing Lambdas from Container Image using AWS CDK
 
-This is a blank project for CDK development with TypeScript.
+This is a practical example of how to deploy Lambdas with containers using AWS CDK.
 
-The `cdk.json` file tells the CDK Toolkit how to execute your app.
+## Prerequisites:
 
-## Useful commands
+- An AWS account with permissions to create resources
+- A local development environment with AWS CLI installed and configured
+- A local development environment with NodeJs
+- A local development environment with Typescript:
 
-* `npm run build`   compile typescript to js
-* `npm run watch`   watch for changes and compile
-* `npm run test`    perform the jest unit tests
-* `cdk deploy`      deploy this stack to your default AWS account/region
-* `cdk diff`        compare deployed stack with current state
-* `cdk synth`       emits the synthesized CloudFormation template
+```
+    npm install -g typescript
+```
+
+- A local development environment with AWS CDK installed:
+
+```
+    npm install -g aws-cdk
+```
